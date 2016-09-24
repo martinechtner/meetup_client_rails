@@ -7,5 +7,6 @@ rvm:
 
 before_script:
   - gem install 'rspec'
+  - gem install 'webmock'
 
 script: rspec spec/
