@@ -6,6 +6,6 @@ rvm:
   - 2.3.1
 
 before_script:
-  - bundle install 'rspec'
+  - gem install 'rspec'
 
 script: bundle exec rspec spec/
