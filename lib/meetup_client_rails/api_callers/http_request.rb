@@ -1,5 +1,3 @@
-require 'json'
-
 module MeetupClientRails
   module ApiCallers
     class HttpRequest

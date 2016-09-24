@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
+  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   # spec.files         = Dir['{bin/*,lib/**/*,spec/**/*}'] + %w(meetup_client_rails.gemspec Rakefile README.md)
 
   spec.bindir        = 'exe'
@@ -21,9 +22,4 @@ Gem::Specification.new do |spec|
   spec.require_paths = %w(lib spec)
 
   spec.required_ruby_version = '>= 2.0'
-
-  spec.add_development_dependency 'bundler', '~> 1.13'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec'
-  spec.add_development_dependency 'webmock'
 end
