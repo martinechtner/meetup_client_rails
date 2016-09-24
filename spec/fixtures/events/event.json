@@ -1,0 +1,37 @@
+{
+  "created": 1440955920000,
+  "id": "jppjklyvnbgb",
+  "name": "Integrating React with Rails",
+  "status": "upcoming",
+  "time": 1475627400000,
+  "updated": 1473956525000,
+  "utc_offset": -21600000,
+  "waitlist_count": 0,
+  "yes_rsvp_count": 28,
+  "venue": {
+    "id": 10245992,
+    "name": "Assembly",
+    "lat": 51.0530891418457,
+    "lon": -114.09489440917969,
+    "repinned": false,
+    "address_1": "119 - 14 Street NW (Floor 4)",
+    "city": "Calgary",
+    "country": "ca",
+    "localized_country_name": "Canada",
+    "zip": "",
+    "state": "AB"
+  },
+  "group": {
+    "created": 1319897613000,
+    "name": "YYC Ruby",
+    "id": 2726362,
+    "join_mode": "open",
+    "lat": 51.0099983215332,
+    "lon": -114.13999938964844,
+    "urlname": "YYC-Rb",
+    "who": "Rubyists"
+  },
+  "link": "http://www.meetup.com/YYC-Rb/events/230434122/",
+  "description": "<p>Kris will show how to quickly start a Rails project on the right foot integrating and using the popular React component-based UI library. </p> ",
+  "visibility": "public"
+}
