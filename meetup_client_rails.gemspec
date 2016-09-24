@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
+  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   # spec.files         = Dir['{bin/*,lib/**/*,spec/**/*}'] + %w(meetup_client_rails.gemspec Rakefile README.md)
 
   spec.bindir        = 'exe'
