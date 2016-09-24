@@ -5,8 +5,4 @@ sudo: false
 rvm:
   - 2.3.1
 
-before_script:
-  - gem install 'rspec'
-  - gem install 'webmock'
-
 script: rspec spec/
