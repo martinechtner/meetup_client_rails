@@ -8,4 +8,4 @@ rvm:
 before_script:
   - gem install 'rspec'
 
-script: bundle exec rspec spec/
+script: rspec spec/
