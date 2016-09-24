@@ -1,6 +1,7 @@
+require 'rspec/core/rake_task'
 require 'bundler/gem_tasks'
 
-desc 'run specs'
-task(:spec) { ruby '-S rspec spec# -c}' }
+# Default directory to look within is `/specs`
+RSpec::Core::RakeTask.new(:spec)
 
-task default: :spec
+task :default => :spec
