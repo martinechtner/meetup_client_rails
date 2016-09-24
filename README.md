@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/martinechtner/meetup_client_rails.svg)](https://travis-ci.org/martinechtner/meetup_client_rails)
+
+
 # MeetupClientRails
 
 Meetup Client to connect with the meetup API based on https://github.com/cranieri/meetup_client
