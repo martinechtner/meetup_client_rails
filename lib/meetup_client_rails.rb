@@ -20,8 +20,18 @@ module MeetupClientRails
       @config
     end
 
+    def get_response(request_string)
+      request = MeetupClientRails::ApiCallers::HttpRequest.new("#{BASE_URL}#{request_string}")
+      requester = MeetupClientRails::ApiCallers::HttpRequester.new(request)
+      requester.execute_request
+    end
+
     def merge_api_key(params)
       params.merge({ key: ::MeetupClientRails.config.api_key })
+    end
+
+    def query_string(params)
+      params.map { |k, v| "#{k}=#{v}" }.join('&')
     end
   end
 end
