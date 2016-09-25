@@ -8,9 +8,12 @@ module MeetupClientRails
       requester = MeetupClientRails::ApiCallers::HttpRequester.new(request)
       events_json = requester.execute_request
 
-      events_json.each do |key, value|
-        MeetupClientRails::Model::Event.new(value)
+      events=[]
+      events_json['body'].each do |event|
+        events << MeetupClientRails::Model::Event.new(event)
       end
+
+      events
     end
 
     def self.find(urlname, id, params = {})
@@ -19,7 +22,7 @@ module MeetupClientRails
       requester = MeetupClientRails::ApiCallers::HttpRequester.new(request)
       event_json = requester.execute_request
 
-      MeetupClientRails::Model::Event.new(event_json)
+      MeetupClientRails::Model::Event.new(event_json['body'])
     end
 
     private

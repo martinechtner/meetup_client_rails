@@ -1,3 +1,5 @@
+require 'json'
+
 module MeetupClientRails
   module ApiCallers
     class HttpRequest
@@ -16,8 +18,9 @@ module MeetupClientRails
       end
 
       def format_response(response)
-        json = JSON.parse(response.body)
-        # json['headers'] = response.to_hash
+        json = {}
+        json['body'] = JSON.parse(response.body)
+        json['headers'] = response.to_hash
         json
       end
 

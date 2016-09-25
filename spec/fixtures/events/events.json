@@ -1,5 +1,5 @@
-{
-  "0": {
+[
+  {
     "created": 1440955920000,
     "id": "jppjklyvnbgb",
     "name": "Integrating React with Rails",
@@ -24,19 +24,19 @@
     },
     "group": {
       "created": 1319897613000,
-      "name": "YYC Ruby",
+      "name": "RubyMeetup",
       "id": 2726362,
       "join_mode": "open",
       "lat": 51.0099983215332,
       "lon": -114.13999938964844,
-      "urlname": "YYC-Rb",
+      "urlname": "RubyMeetup",
       "who": "Rubyists"
     },
     "link": "http://www.meetup.com/YYC-Rb/events/230434122/",
     "description": "<p>Kris will show how to quickly start a Rails project on the right foot integrating and using the popular React component-based UI library. </p> ",
     "visibility": "public"
   },
-  "1": {
+  {
     "created": 1440955920000,
     "id": "jppjklyvpbcb",
     "name": "TBD",
@@ -61,16 +61,16 @@
     },
     "group": {
       "created": 1319897613000,
-      "name": "YYC Ruby",
+      "name": "RubyMeetup",
       "id": 2726362,
       "join_mode": "open",
       "lat": 51.0099983215332,
       "lon": -114.13999938964844,
-      "urlname": "YYC-Rb",
+      "urlname": "RubyMeetup",
       "who": "Rubyists"
     },
     "link": "http://www.meetup.com/YYC-Rb/events/jppjklyvpbcb/",
     "description": "<p>TBD - Details to be determined.</p> ",
     "visibility": "public"
   }
-}
+]
