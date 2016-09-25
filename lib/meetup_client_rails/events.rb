@@ -4,12 +4,9 @@ module MeetupClientRails
       params = MeetupClientRails.query_string(MeetupClientRails.merge_api_key(params))
       events_json = MeetupClientRails.get_response("#{urlname}/events?#{params}")
 
-      events=[]
-      events_json['body'].each do |event|
-        events << MeetupClientRails::Model::Event.new(event)
+      events_json['body'].collect do |event|
+        MeetupClientRails::Model::Event.new(event)
       end
-
-      events
     end
 
     def self.find(urlname, id, params = {})
