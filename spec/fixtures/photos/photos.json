@@ -1,0 +1,51 @@
+[
+  {
+    "id": 68912762,
+    "highres_link": "http://photos3.meetupstatic.com/photos/event/7/f/f/a/highres_68912762.jpeg",
+    "photo_link": "http://photos3.meetupstatic.com/photos/event/7/f/f/a/600_68912762.jpeg",
+    "thumb_link": "http://photos3.meetupstatic.com/photos/event/7/f/f/a/thumb_68912762.jpeg",
+    "type": "event",
+    "base_url": "http://photos3.meetupstatic.com",
+    "link": "http://www.meetup.com/YYC-Rb/photos/4210352/68912762/",
+    "created": 1320075105000,
+    "updated": 1320075106000,
+    "utc_offset": -21600000,
+    "member": {
+      "id": 0,
+      "name": "Former member"
+    },
+    "photo_album": {
+      "id": 4210352,
+      "title": "Meetup Group Photo Album",
+      "photo_count": 2
+    }
+  },
+  {
+    "id": 75966282,
+    "highres_link": "http://photos3.meetupstatic.com/photos/event/1/8/8/a/highres_75966282.jpeg",
+    "photo_link": "http://photos3.meetupstatic.com/photos/event/1/8/8/a/600_75966282.jpeg",
+    "thumb_link": "http://photos3.meetupstatic.com/photos/event/1/8/8/a/thumb_75966282.jpeg",
+    "type": "event",
+    "base_url": "http://photos3.meetupstatic.com",
+    "link": "http://www.meetup.com/YYC-Rb/photos/4677472/75966282/",
+    "created": 1322542813000,
+    "updated": 1322542816000,
+    "utc_offset": -25200000,
+    "member": {
+      "id": 0,
+      "name": "Former member"
+    },
+    "photo_album": {
+      "id": 4677472,
+      "title": "Ruby on Rails Workshop - November 26-27",
+      "photo_count": 4,
+      "event": {
+        "id": "39161452",
+        "name": "Ruby on Rails Workshop - November 26-27",
+        "yes_rsvp_count": 24,
+        "time": 1322326800000,
+        "utc_offset": -25200000
+      }
+    }
+  }
+]

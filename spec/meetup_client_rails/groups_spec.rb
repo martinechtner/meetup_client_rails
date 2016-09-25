@@ -15,7 +15,7 @@ describe MeetupClientRails::Groups do
     context 'success' do
       let(:group_info_response) { File.read(File.join('spec', 'fixtures', 'groups', 'groups.json')) }
 
-      it 'creates event' do
+      it 'creates group' do
         WebMock.stub_request(:get, /./).to_return body: group_info_response
 
         group = subject
