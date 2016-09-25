@@ -9,11 +9,11 @@ module MeetupClientRails
       end
     end
 
-    # def self.find(urlname, id, params = {})
-    #   params = MeetupClientRails.query_string(MeetupClientRails.merge_api_key(params))
-    #   event_json = MeetupClientRails.get_response("#{urlname}/events/#{id}?#{params}")
-    #
-    #   MeetupClientRails::Model::Event.new(event_json['body'])
-    # end
+    def self.find_photo_album(urlname, id, params = {})
+      params = MeetupClientRails.query_string(MeetupClientRails.merge_api_key(params))
+      photo_album_json = MeetupClientRails.get_response("#{urlname}/photo_albums/#{id}?#{params}")
+
+      MeetupClientRails::Model::Event.new(photo_album_json['body'])
+    end
   end
 end

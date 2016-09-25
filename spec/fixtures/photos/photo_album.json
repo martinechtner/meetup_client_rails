@@ -1,0 +1,49 @@
+{
+  "id": 27249258,
+  "title": "Lightning Talks!",
+  "photo_count": 1,
+  "event": {
+    "id": "jppjklyvmbjb",
+    "name": "Lightning Talks!",
+    "yes_rsvp_count": 29,
+    "time": 1473208200000,
+    "utc_offset": -21600000
+  },
+  "photo_sample": [
+    {
+      "id": 453874289,
+      "highres_link": "http://photos2.meetupstatic.com/photos/event/8/5/f/1/highres_453874289.jpeg",
+      "photo_link": "http://photos2.meetupstatic.com/photos/event/8/5/f/1/600_453874289.jpeg",
+      "thumb_link": "http://photos4.meetupstatic.com/photos/event/8/5/f/1/thumb_453874289.jpeg",
+      "type": "event",
+      "base_url": "http://photos2.meetupstatic.com"
+    }
+  ],
+  "link": "http://www.meetup.com/RubyMeetup/photos/27249258/",
+  "created": 1473210580000,
+  "updated": 1473210582000,
+  "group": {
+    "id": 2726362,
+    "urlname": "RubyMeetup",
+    "name": "RubyMeetup",
+    "who": "Rubyists",
+    "members": 336,
+    "join_mode": "open",
+    "group_photo": {
+      "id": 199776992,
+      "highres_link": "http://photos4.meetupstatic.com/photos/event/9/0/8/0/highres_199776992.jpeg",
+      "photo_link": "http://photos4.meetupstatic.com/photos/event/9/0/8/0/600_199776992.jpeg",
+      "thumb_link": "http://photos2.meetupstatic.com/photos/event/9/0/8/0/thumb_199776992.jpeg",
+      "type": "event",
+      "base_url": "http://photos4.meetupstatic.com"
+    }
+  },
+  "album_photo": {
+    "id": 453874289,
+    "highres_link": "http://photos2.meetupstatic.com/photos/event/8/5/f/1/highres_453874289.jpeg",
+    "photo_link": "http://photos2.meetupstatic.com/photos/event/8/5/f/1/600_453874289.jpeg",
+    "thumb_link": "http://photos4.meetupstatic.com/photos/event/8/5/f/1/thumb_453874289.jpeg",
+    "type": "event",
+    "base_url": "http://photos2.meetupstatic.com"
+  }
+}
