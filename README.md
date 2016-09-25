@@ -15,11 +15,18 @@ gem 'meetup_client_rails'
 
 And then execute:
 
-    $ bundle
+```console
+    $ bundle install
+```
+Run the bundle command to install it.
 
-Or install it yourself as:
+Next, you need to run the generator:
 
-    $ gem install meetup_client_rails
+```console
+$ rails generate meetup_client_rails:install
+```
+
+Then edit the generator to add you Meetup Api Key you can get one [here](https://secure.meetup.com/meetup_api/key/) 
 
 ## Usage
 
