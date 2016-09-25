@@ -1,7 +1,4 @@
-[![Build Status](https://travis-ci.org/martinechtner/meetup_client_rails.svg)](https://travis-ci.org/martinechtner/meetup_client_rails)
-
-
-# MeetupClientRails
+# MeetupClientRails [![Build Status](https://travis-ci.org/martinechtner/meetup_client_rails.svg)](https://travis-ci.org/martinechtner/meetup_client_rails)
 
 Meetup Client to connect with the meetup API based on https://github.com/cranieri/meetup_client
 
@@ -16,7 +13,7 @@ gem 'meetup_client_rails'
 And then execute:
 
 ```console
-    $ bundle install
+$ bundle install
 ```
 Run the bundle command to install it.
 
