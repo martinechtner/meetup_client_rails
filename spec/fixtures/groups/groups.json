@@ -1,0 +1,95 @@
+{
+  "id": 2726362,
+  "name": "RubyMeetup",
+  "link": "http://www.meetup.com/RubyMeetup/",
+  "urlname": "RubyMeetup",
+  "description": "<p>The RubyMeetup User Group.</p><p>Every 1st Tuesday of the month.</p><p>Part of the HackNight YYC series, with Startup Calgary.</p>",
+  "created": 1319897613000,
+  "city": "Calgary",
+  "country": "CA",
+  "localized_country_name": "Canada",
+  "state": "AB",
+  "join_mode": "open",
+  "visibility": "public",
+  "lat": 51.01,
+  "lon": -114.14,
+  "members": 336,
+  "organizer": {
+    "id": 30671862,
+    "name": "Ruby Guy",
+    "bio": "",
+    "photo": {
+      "id": 189952132,
+      "highres_link": "http://photos2.meetupstatic.com/photos/member/c/b/a/4/highres_189952132.jpeg",
+      "photo_link": "http://photos2.meetupstatic.com/photos/member/c/b/a/4/member_189952132.jpeg",
+      "thumb_link": "http://photos2.meetupstatic.com/photos/member/c/b/a/4/thumb_189952132.jpeg",
+      "type": "member",
+      "base_url": "http://photos2.meetupstatic.com"
+    }
+  },
+  "who": "Rubyists",
+  "group_photo": {
+    "id": 199776992,
+    "highres_link": "http://photos4.meetupstatic.com/photos/event/9/0/8/0/highres_199776992.jpeg",
+    "photo_link": "http://photos4.meetupstatic.com/photos/event/9/0/8/0/600_199776992.jpeg",
+    "thumb_link": "http://photos2.meetupstatic.com/photos/event/9/0/8/0/thumb_199776992.jpeg",
+    "type": "event",
+    "base_url": "http://photos4.meetupstatic.com"
+  },
+  "key_photo": {
+    "id": 449631495,
+    "highres_link": "http://photos4.meetupstatic.com/photos/event/c/9/2/7/highres_449631495.jpeg",
+    "photo_link": "http://photos4.meetupstatic.com/photos/event/c/9/2/7/600_449631495.jpeg",
+    "thumb_link": "http://photos2.meetupstatic.com/photos/event/c/9/2/7/thumb_449631495.jpeg",
+    "type": "event",
+    "base_url": "http://photos4.meetupstatic.com"
+  },
+  "timezone": "Canada/Mountain",
+  "next_event": {
+    "id": "jppjklyvnbgb",
+    "name": "Integrating React with Rails",
+    "yes_rsvp_count": 28,
+    "time": 1475627400000,
+    "utc_offset": -21600000
+  },
+  "category": {
+    "id": 34,
+    "name": "Tech",
+    "shortname": "Tech",
+    "sort_name": "Tech"
+  },
+  "photos": [
+    {
+      "id": 433989324,
+      "highres_link": "http://photos2.meetupstatic.com/photos/event/2/4/6/c/highres_433989324.jpeg",
+      "photo_link": "http://photos2.meetupstatic.com/photos/event/2/4/6/c/600_433989324.jpeg",
+      "thumb_link": "http://photos2.meetupstatic.com/photos/event/2/4/6/c/thumb_433989324.jpeg",
+      "type": "event",
+      "base_url": "http://photos2.meetupstatic.com"
+    },
+    {
+      "id": 433993914,
+      "highres_link": "http://photos4.meetupstatic.com/photos/event/3/6/5/a/highres_433993914.jpeg",
+      "photo_link": "http://photos2.meetupstatic.com/photos/event/3/6/5/a/600_433993914.jpeg",
+      "thumb_link": "http://photos4.meetupstatic.com/photos/event/3/6/5/a/thumb_433993914.jpeg",
+      "type": "event",
+      "base_url": "http://photos2.meetupstatic.com"
+    },
+    {
+      "id": 441556484,
+      "highres_link": "http://photos3.meetupstatic.com/photos/event/4/0/6/4/highres_441556484.jpeg",
+      "photo_link": "http://photos3.meetupstatic.com/photos/event/4/0/6/4/600_441556484.jpeg",
+      "thumb_link": "http://photos3.meetupstatic.com/photos/event/4/0/6/4/thumb_441556484.jpeg",
+      "type": "event",
+      "base_url": "http://photos3.meetupstatic.com"
+    },
+    {
+      "id": 453874289,
+      "highres_link": "http://photos2.meetupstatic.com/photos/event/8/5/f/1/highres_453874289.jpeg",
+      "photo_link": "http://photos2.meetupstatic.com/photos/event/8/5/f/1/600_453874289.jpeg",
+      "thumb_link": "http://photos4.meetupstatic.com/photos/event/8/5/f/1/thumb_453874289.jpeg",
+      "type": "event",
+      "base_url": "http://photos2.meetupstatic.com"
+    }
+  ]
+}
