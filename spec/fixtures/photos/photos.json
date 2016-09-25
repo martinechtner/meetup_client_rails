@@ -1,100 +1,51 @@
 [
   {
-    "id": 27249258,
-    "title": "Lightning Talks!",
-    "photo_count": 1,
-    "event": {
-      "id": "jppjklyvmbjb",
-      "name": "Lightning Talks!",
-      "yes_rsvp_count": 29,
-      "time": 1473208200000,
-      "utc_offset": -21600000
+    "id": 68912762,
+    "highres_link": "http://photos3.meetupstatic.com/photos/event/7/f/f/a/highres_68912762.jpeg",
+    "photo_link": "http://photos3.meetupstatic.com/photos/event/7/f/f/a/600_68912762.jpeg",
+    "thumb_link": "http://photos3.meetupstatic.com/photos/event/7/f/f/a/thumb_68912762.jpeg",
+    "type": "event",
+    "base_url": "http://photos3.meetupstatic.com",
+    "link": "http://www.meetup.com/YYC-Rb/photos/4210352/68912762/",
+    "created": 1320075105000,
+    "updated": 1320075106000,
+    "utc_offset": -21600000,
+    "member": {
+      "id": 0,
+      "name": "Former member"
     },
-    "photo_sample": [
-      {
-        "id": 453874289,
-        "highres_link": "http://photos2.meetupstatic.com/photos/event/8/5/f/1/highres_453874289.jpeg",
-        "photo_link": "http://photos2.meetupstatic.com/photos/event/8/5/f/1/600_453874289.jpeg",
-        "thumb_link": "http://photos4.meetupstatic.com/photos/event/8/5/f/1/thumb_453874289.jpeg",
-        "type": "event",
-        "base_url": "http://photos2.meetupstatic.com"
-      }
-    ],
-    "link": "http://www.meetup.com/RubyMeetup/photos/27249258/",
-    "created": 1473210580000,
-    "updated": 1473210582000,
-    "group": {
-      "id": 2726362,
-      "urlname": "RubyMeetup",
-      "name": "RubyMeetup",
-      "who": "Rubyists",
-      "members": 336,
-      "join_mode": "open",
-      "group_photo": {
-        "id": 199776992,
-        "highres_link": "http://photos4.meetupstatic.com/photos/event/9/0/8/0/highres_199776992.jpeg",
-        "photo_link": "http://photos4.meetupstatic.com/photos/event/9/0/8/0/600_199776992.jpeg",
-        "thumb_link": "http://photos2.meetupstatic.com/photos/event/9/0/8/0/thumb_199776992.jpeg",
-        "type": "event",
-        "base_url": "http://photos4.meetupstatic.com"
-      }
-    },
-    "album_photo": {
-      "id": 453874289,
-      "highres_link": "http://photos2.meetupstatic.com/photos/event/8/5/f/1/highres_453874289.jpeg",
-      "photo_link": "http://photos2.meetupstatic.com/photos/event/8/5/f/1/600_453874289.jpeg",
-      "thumb_link": "http://photos4.meetupstatic.com/photos/event/8/5/f/1/thumb_453874289.jpeg",
-      "type": "event",
-      "base_url": "http://photos2.meetupstatic.com"
+    "photo_album": {
+      "id": 4210352,
+      "title": "Meetup Group Photo Album",
+      "photo_count": 2
     }
   },
   {
-    "id": 26941431,
-    "title": "Building Hybrid Apps with Rails - a Case Study",
-    "photo_count": 1,
-    "event": {
-      "id": "jppjklyvhbfb",
-      "name": "Building Hybrid Apps with Rails - a Case Study",
-      "yes_rsvp_count": 35,
-      "time": 1462321800000,
-      "utc_offset": -21600000
+    "id": 75966282,
+    "highres_link": "http://photos3.meetupstatic.com/photos/event/1/8/8/a/highres_75966282.jpeg",
+    "photo_link": "http://photos3.meetupstatic.com/photos/event/1/8/8/a/600_75966282.jpeg",
+    "thumb_link": "http://photos3.meetupstatic.com/photos/event/1/8/8/a/thumb_75966282.jpeg",
+    "type": "event",
+    "base_url": "http://photos3.meetupstatic.com",
+    "link": "http://www.meetup.com/YYC-Rb/photos/4677472/75966282/",
+    "created": 1322542813000,
+    "updated": 1322542816000,
+    "utc_offset": -25200000,
+    "member": {
+      "id": 0,
+      "name": "Former member"
     },
-    "photo_sample": [
-      {
-        "id": 449631495,
-        "highres_link": "http://photos4.meetupstatic.com/photos/event/c/9/2/7/highres_449631495.jpeg",
-        "photo_link": "http://photos4.meetupstatic.com/photos/event/c/9/2/7/600_449631495.jpeg",
-        "thumb_link": "http://photos2.meetupstatic.com/photos/event/c/9/2/7/thumb_449631495.jpeg",
-        "type": "event",
-        "base_url": "http://photos4.meetupstatic.com"
+    "photo_album": {
+      "id": 4677472,
+      "title": "Ruby on Rails Workshop - November 26-27",
+      "photo_count": 4,
+      "event": {
+        "id": "39161452",
+        "name": "Ruby on Rails Workshop - November 26-27",
+        "yes_rsvp_count": 24,
+        "time": 1322326800000,
+        "utc_offset": -25200000
       }
-    ],
-    "link": "http://www.meetup.com/RubyMeetup/photos/26941431/",
-    "created": 1462323170000,
-    "updated": 1462324667000,
-    "group": {
-      "id": 2726362,
-      "urlname": "RubyMeetup",
-      "name": "RubyMeetup",
-      "who": "Rubyists",
-      "members": 336,
-      "join_mode": "open",
-      "group_photo": {
-        "id": 199776992,
-        "highres_link": "http://photos4.meetupstatic.com/photos/event/9/0/8/0/highres_199776992.jpeg",
-        "photo_link": "http://photos4.meetupstatic.com/photos/event/9/0/8/0/600_199776992.jpeg",
-        "thumb_link": "http://photos2.meetupstatic.com/photos/event/9/0/8/0/thumb_199776992.jpeg",
-        "type": "event",
-        "base_url": "http://photos4.meetupstatic.com"
-      }
-    },
-    "album_photo": {
-      "id": 449631495,
-      "highres_link": "http://photos4.meetupstatic.com/photos/event/c/9/2/7/highres_449631495.jpeg",
-      "photo_link": "http://photos4.meetupstatic.com/photos/event/c/9/2/7/600_449631495.jpeg",
-      "thumb_link": "http://photos2.meetupstatic.com/photos/event/c/9/2/7/thumb_449631495.jpeg",
-      "type": "event",
-      "base_url": "http://photos4.meetupstatic.com"
     }
   }
 ]

@@ -25,11 +25,11 @@ module MeetupClientRails
         @members = json_response['members']
         @organizer = json_response['organizer']
         @who = json_response['who']
-        @group_photo = json_response['group_photo']
-        @key_photo = json_response['key_photo']
         @timezone = json_response['timezone']
         @next_event = json_response['next_event']
         @category = json_response['category']
+        @group_photo = json_response['group_photo']
+        @key_photo = json_response['key_photo']
         @photos = json_response['photos']
       end
     end

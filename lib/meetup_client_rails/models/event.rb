@@ -4,7 +4,7 @@ module MeetupClientRails
       attr_accessor :created, :id, :name, :status, :time, :updated, :utc_offset, :waitlist_count,
                     :yes_rsvp_count, :venue, :group, :link, :description, :visibility
 
-      def initialize(json_response)
+      def initialize(json_response = {})
         @created = json_response['created']
         @id = json_response['id']
         @name = json_response['name']
