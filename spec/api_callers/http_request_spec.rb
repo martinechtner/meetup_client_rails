@@ -16,9 +16,9 @@ describe MeetupClientRails::ApiCallers::HttpRequest do
 
     context 'get request' do
       it 'make a request to the provided url' do
+        # allow(request).to receive(:to_hash)
         allow(Net::HTTP::Get).to receive(:new).with('request_uri', { 'Accept-Charset' => 'UTF-8' }).and_return(:get_request)
         expect(Net::HTTP).to receive(:new)
-        allow(request).to receive(:to_hash)
         expect(http_obj).to receive(:request).with(:get_request)
         subject.make_request
       end
@@ -27,9 +27,9 @@ describe MeetupClientRails::ApiCallers::HttpRequest do
     context 'post request' do
       let(:http_verb) { 'post' }
       it 'make a request to the provided url' do
+        # allow(request).to receive(:to_hash)
         allow(Net::HTTP::Post).to receive(:new).with('request_uri', { 'Accept-Charset' => 'UTF-8' }).and_return(:post_request)
         expect(Net::HTTP).to receive(:new)
-        allow(request).to receive(:to_hash)
         expect(http_obj).to receive(:request).with(:post_request)
         subject.make_request
       end

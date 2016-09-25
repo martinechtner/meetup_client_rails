@@ -17,7 +17,7 @@ module MeetupClientRails
 
       def format_response(response)
         json = JSON.parse(response.body)
-        json['headers'] = response.to_hash
+        # json['headers'] = response.to_hash
         json
       end
 
