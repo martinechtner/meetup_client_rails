@@ -23,7 +23,7 @@ Next, you need to run the generator:
 $ rails generate meetup_client_rails:install
 ```
 
-Then edit the generator to add you Meetup Api Key you can get one [here](https://secure.meetup.com/meetup_api/key/) 
+Then edit the generator to add your Meetup Api Key you can get one [here](https://secure.meetup.com/meetup_api/key/) 
 
 ## Usage
 
@@ -37,7 +37,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/martinechtner/meetup_client_rails.
+Bug reports and pull requests are welcome on GitHub.
 
 
 ## License
