@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe MeetupClientRails::Events do
-  let!(:urlname) { 'YYC-Rb' }
+  let!(:urlname) { 'RubyMeetup' }
 
   before(:each) do
     MeetupClientRails.configure do |config|
