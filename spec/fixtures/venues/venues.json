@@ -1,0 +1,50 @@
+[
+  {
+    "visibility": "public",
+    "zip": "",
+    "state": "AB",
+    "phone": "",
+    "name": "Assemble",
+    "lon": -114.094894,
+    "lat": 51.053089,
+    "localized_country_name": "Canada",
+    "country": "ca",
+    "city": "Calgary",
+    "address_3": "",
+    "address_2": "",
+    "address_1": "119 - 18 Street SW (Floor 4)",
+    "id": 10245992
+  },
+  {
+    "visibility": "public",
+    "zip": "T2N 1Z9",
+    "state": "AB",
+    "phone": "",
+    "name": "A Space",
+    "lon": -114.09458,
+    "lat": 51.05604,
+    "localized_country_name": "Canada",
+    "country": "CA",
+    "city": "Calgary",
+    "address_3": "",
+    "address_2": "",
+    "address_1": "Suit 400 - 234 14th Street SW",
+    "id": 18098162
+  },
+  {
+    "visibility": "public",
+    "zip": "",
+    "state": "AB",
+    "phone": "",
+    "name": "AppWarehouse",
+    "lon": -114.055794,
+    "lat": 51.04216,
+    "localized_country_name": "Canada",
+    "country": "ca",
+    "city": "Calgary",
+    "address_3": "",
+    "address_2": "",
+    "address_1": "4333 13th Ave SE",
+    "id": 16115082
+  }
+]

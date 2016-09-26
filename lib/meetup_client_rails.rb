@@ -6,10 +6,12 @@ require 'meetup_client_rails/api_callers/http_requester'
 require 'meetup_client_rails/events'
 require 'meetup_client_rails/groups'
 require 'meetup_client_rails/photos'
+require 'meetup_client_rails/venues'
 require 'meetup_client_rails/models/event'
 require 'meetup_client_rails/models/group'
-require 'meetup_client_rails/models/photo_album'
 require 'meetup_client_rails/models/photo'
+require 'meetup_client_rails/models/photo_album'
+require 'meetup_client_rails/models/venue'
 
 module MeetupClientRails
   BASE_URL = 'http://api.meetup.com/'
