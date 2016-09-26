@@ -1,7 +1,13 @@
 language: ruby
 cache: bundler
 sudo: false
-
 rvm:
-  - 2.3.1
-  - 2.2.5
+- 2.3.1
+- 2.2.5
+
+deploy:
+  provider: rubygems
+  api_key:
+    secure: Gr3KVz4O7gXKQKCC6kSfyAxv6EHq04R28T4KdLXtm5BpHoMaj7dM2mt3ytdyJuVMBTtBObgowOLgw0FHCzajTrKNTmTlwg0FtUNyVw9SM88QOyN3sI81vTuTtluLlkKPr5jt3DP8qU4IcXbxyFdgf4HIM4HTbrG0D5CF7byCKw6T7ikSCQ4YxymHDqfgIkaFRU38rJyoEYzB5hlATZMR+3RQMwD3mUI1KEBb9i9CL7WE0qKLpcs1XG+s3WeX6xaOshQBma3JA5NT0mAJYfTVunm62yjiz7T+bDOIuCSh+700Puw+XLqAJEWDj9CpnqlL++1XPafwwpTxjHlPqLlhu/jbBsMRHNl9uXLqTdMYVyK1A/4i8Z+BPdEW8RsN57wTCUCcbTdifiQb4dV6oDi0Cqxv8AGGDhOmYDUjP6wy90lLw7v/yp5Ls0z2W58yh/89TdUp2LCHjGAQTXF9nrPIH75pZO47hxVxHGZhrySRc0jniCsXWrtDDrE1MAhlB0YfK+APxxiJjMBck9aAi3q+6px1KM6vJI/p/EVmQKbL3oKEWaeHc/7mcJkgxD5/5so91zleqFxB+JUdhFc2e+c39EJw8NFuCn3J57UmoXpjkwI8T60yTBdb25L6nTVRKMjGF9gbDoDseCKZAqwcqPlPCEBftblw/iwqKzaNFU2BQuw=
+  on:
+    tags: true
