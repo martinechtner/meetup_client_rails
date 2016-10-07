@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['martin.echtner@gmail.com']
 
   spec.summary       = %q{Meetup.com API Client}
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/martinechtner/meetup_client_rails'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
