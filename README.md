@@ -27,7 +27,33 @@ Then edit the generator to add your Meetup Api Key you can get one [here](https:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem works with v3 of the meetup api, not everything has been implemented but the gem is easy to add on to.
+
+You can get a list of params from the [Meetup API](http://www.meetup.com/meetup_api/docs/) 
+
+Example Meetup url http://www.meetup.com/MEETUP_GROUP/
+
+Events
+```ruby
+MeetupClientRails::Events.all(MEETUP_GROUP, { page: 20 })
+MeetupClientRails::Events.find(MEETUP_GROUP, id_123, { page: 20 })
+```
+
+Groups
+```ruby
+MeetupClientRails::Groups.find(MEETUP_GROUP, id_123, { page: 20 })
+```
+Photos
+```ruby
+MeetupClientRails::Photos.all_photo_albums(MEETUP_GROUP, { page: 20 })
+MeetupClientRails::Photos.find_photo_album(MEETUP_GROUP, id_123, { page: 20 })
+MeetupClientRails::Photos.all_photos(MEETUP_GROUP, { page: 20 })
+```
+
+Venues
+```ruby
+MeetupClientRails::Venues.all(MEETUP_GROUP, { page: 20 })
+```
 
 ## Development
 
